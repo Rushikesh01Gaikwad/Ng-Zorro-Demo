@@ -3,7 +3,35 @@ import { provideRouter } from '@angular/router';
 import { NZ_I18N, en_US } from 'ng-zorro-antd/i18n';
 import { routes } from './app.routes';
 import { provideNzIcons } from 'ng-zorro-antd/icon';
-import { SyncOutline, MenuFoldOutline, MenuUnfoldOutline } from '@ant-design/icons-angular/icons';
+
+import {
+  SyncOutline,
+  UserOutline,
+  HomeOutline,
+  DashboardOutline,
+  SettingOutline,
+  LogoutOutline,
+  MenuFoldOutline,
+  MenuUnfoldOutline,
+  PlusOutline,
+  EditOutline,
+  DeleteOutline,
+  SearchOutline,
+  BellOutline,
+  FolderOpenOutline,
+  FileOutline,
+  BookOutline,
+  ShoppingCartOutline,
+  StarOutline,
+  TeamOutline,
+  CalendarOutline,
+  PieChartOutline,
+  BarChartOutline,
+  DatabaseOutline,
+  ToolOutline
+} from '@ant-design/icons-angular/icons';
+
+
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -19,7 +47,28 @@ export const appConfig: ApplicationConfig = {
     provideNzIcons([
       SyncOutline,
       MenuFoldOutline,
-      MenuUnfoldOutline
+      MenuUnfoldOutline,
+      UserOutline,
+  HomeOutline,
+  DashboardOutline,
+  SettingOutline,
+  LogoutOutline,
+  PlusOutline,
+  EditOutline,
+  DeleteOutline,
+  SearchOutline,
+  BellOutline,
+  FolderOpenOutline,
+  FileOutline,
+  BookOutline,
+  ShoppingCartOutline,
+  StarOutline,
+  TeamOutline,
+  CalendarOutline,
+  PieChartOutline,
+  BarChartOutline,
+  DatabaseOutline,
+  ToolOutline
     ])
   ],
 };
